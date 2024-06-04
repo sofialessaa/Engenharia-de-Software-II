@@ -1,0 +1,261 @@
+.cadastro .text-input-senha {
+    position: relative;
+    margin: 0 5px 24px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 5px);
+    box-sizing: border-box;
+  }
+  .cadastro .lock {
+    margin: 0 3px 1px 0;
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro .frame-2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 329px;
+    box-sizing: border-box;
+  }
+  .cadastro .campo-de-texto {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .cadastro .digite-sua-senha {
+    margin-bottom: 3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F5F5F;
+  }
+  .cadastro .line-1 {
+    background: #949393;
+    margin-left: 4px;
+    width: 298px;
+    height: 1px;
+  }
+  .cadastro .eye {
+    margin-bottom: 1px;
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro .checkbox {
+    border-radius: 6px;
+    border: 1px solid #777877;
+    margin: 6px 13px 6px 0;
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro .frame-1 {
+    position: relative;
+    margin: 0 8.2px 20px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .cadastro {
+    border-radius: 13px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px 174px 16px;
+    box-sizing: border-box;
+  }
+  .cadastro .novo-usurio {
+    position: relative;
+    margin-bottom: 12px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+  }
+  .cadastro .text-input-user {
+    position: relative;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cadastro .user {
+    margin: 0 3px 1px 0;
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro .campo-de-texto-1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 334px;
+    box-sizing: border-box;
+  }
+  .cadastro .digite-seu-user {
+    margin-bottom: 3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F5F5F;
+  }
+  .cadastro .line-11 {
+    background: #949393;
+    margin-left: 4px;
+    width: 330px;
+    height: 1px;
+  }
+  .cadastro .text-input-email {
+    position: relative;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cadastro .campo-de-texto-2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 334.2px;
+    box-sizing: border-box;
+  }
+  .cadastro .digite-seu-email {
+    margin-bottom: 3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F5F5F;
+  }
+  .cadastro .line-12 {
+    background: #949393;
+    margin-left: 4.2px;
+    width: 330px;
+    height: 1px;
+  }
+  .cadastro .button-acessar {
+    border-radius: 34px;
+    background: #D9E5D2;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 7px 0.9px 7px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cadastro .cadastrar {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  .cadastro .button-google {
+    border-radius: 34px;
+    background: #DADEDE;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5.5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cadastro .flat-color-iconsgoogle {
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro .entrar-com-google {
+    margin: 1.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+  }
+  .cadastro .ou {
+    position: relative;
+    margin: 0 1.6px 20px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #5F5F5F;
+  }
+  .cadastro .jpossui-uma-conta-faa-ologin {
+    position: relative;
+    margin-right: 0.2px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+  }
+  .jpossui-uma-conta-faa-ologin {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration-line: underline;
+    line-height: 1.333;
+  }
+  .cadastro .at-sign {
+    margin: 0 2.8px 1px 0;
+    width: 24px;
+    height: 24px;
+  }
+  .cadastro .logo-eco-tech {
+    background: url('../../images/logo.jpg') 50% / cover no-repeat;
+    position: relative;
+    margin: 0 1px 15px 0;
+    width: 220px;
+    height: 220px;
+  }
+  .cadastro .ellipse-1 {
+    filter: blur(15px);
+    position: absolute;
+    left: -59px;
+    top: 744px;
+    width: 510px;
+    height: 296px;
+  }
+  .cadastro .termo {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+  }
+  .termo {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration-line: underline;
+    line-height: 1.333;
+    color: #000000;
+  }
+  .termo-sub8 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.333;
+  }

@@ -1,0 +1,201 @@
+/* telaLogin */
+.login .eye {
+    margin-bottom: 1px;
+    width: 24px;
+    height: 24px;
+  }
+  .login .frame-2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 329px;
+    box-sizing: border-box;
+  }
+  .login .acessar {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  .login .button-acessar {
+    border-radius: 34px;
+    background: #D9E5D2;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 7px 0.5px 7px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .login .user {
+    margin: 0 3.1px 1px 0;
+    width: 24px;
+    height: 24px;
+  }
+  .login .campo-de-texto {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 333.9px;
+    box-sizing: border-box;
+  }
+  .login .esqueceu-asenha {
+    position: relative;
+    margin: 0 0.5px 20px 0.5px;
+    display: inline-block;
+    align-self: flex-end;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #5F5F5F;
+  }
+  .login .ou {
+    position: relative;
+    margin: 0 1.6px 20px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #5F5F5F;
+  }
+  .login .button-google {
+    border-radius: 34px;
+    background: #DADEDE;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5.5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .login .entrar-com-google {
+    margin: 1.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+  }
+  .login .flat-color-iconsgoogle {
+    width: 24px;
+    height: 24px;
+  }
+  .login {
+    border-radius: 13px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px 257px 16px;
+    box-sizing: border-box;
+  }
+  .ainda-no-possui-uma-conta-cadastre-se {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration-line: underline;
+    line-height: 1.333;
+  }
+  .login .ainda-no-possui-uma-conta-cadastre-se {
+    position: relative;
+    margin-right: 1.6px;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+  }
+  .login .entrar {
+    position: relative;
+    margin-bottom: 12px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+  }
+  .login .digite-seu-user-ou-email {
+    margin-bottom: 3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F5F5F;
+  }
+  .login .text-input-senha {
+    position: relative;
+    margin: 0 5px 7px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 5px);
+    box-sizing: border-box;
+  }
+  .login .line-1 {
+    background: #949393;
+    margin-left: 3.9px;
+    width: 330px;
+    height: 1px;
+  }
+  .login .lock {
+    margin: 0 3px 1px 0;
+    width: 24px;
+    height: 24px;
+  }
+  .login .campo-de-texto-1 {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .login .digite-sua-senha {
+    margin-bottom: 3px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F5F5F;
+  }
+  .login .line-11 {
+    background: #949393;
+    margin-left: 4px;
+    width: 298px;
+    height: 1px;
+  }
+  .login .text-input-user {
+    position: relative;
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .login .logo-eco-tech {
+    background: url('../../images/logo.jpg') 50% / cover no-repeat;
+    position: relative;
+    margin: 0 1px 15px 0;
+    width: 220px;
+    height: 220px;
+  }
+  .login .ellipse-1 {
+    filter: blur(15px);
+    position: absolute;
+    left: -59px;
+    top: 744px;
+    width: 510px;
+    height: 296px;
+  }
