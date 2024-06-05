@@ -8,6 +8,7 @@ As histórias de usuário selecionadas foram:
 
 1. Como Cliente, quero acessar minha conta para visualizar e acessar a interface do aplicativo EcoTech.
 2. Como cliente, quero cadastrar na a interface do aplicativo EcoTech para inserir minhas credenciais (usuário, email e senha).
+3. Acesse o Backlog para saber mais sobre os critérios de aceitação - [backlog](https://fatecspgov.sharepoint.com/:x:/r/sites/Section_IES200.A400.M.048.146.20241/Student%20Work/Working%20files/SOFIA%20MATOS%20LESSA/Atividade%20Avaliativa%20Individual%2001%201/backlog_EcoTech.xlsx?d=w5f3c907ff4334d55a866a0b8b051d12a&csf=1&web=1&e=LkQfhv)
 
 ## Protótipo Figma
 
