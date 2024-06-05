@@ -4,6 +4,7 @@ import eclipse from '../../images/eclipse.svg'
 import eye from '../../images/eye.svg'
 import google from '../../images/google.svg'
 import user from '../../images/user.svg'
+import { Link } from 'react-router-dom';
 
 export default function Login() {
   return (
@@ -16,9 +17,11 @@ export default function Login() {
       <div className="text-input-user">
         <img className="user" src={user} alt=""/>
         <div className="campo-de-texto">
-          <div className="digite-seu-user-ou-email">
-            Digite seu user ou email<br />
-          </div>
+          <input 
+            type="text" 
+            placeholder="Digite seu user ou email" 
+            className="text" 
+          />
           <div className="line-1">
           </div>
         </div>
@@ -27,9 +30,11 @@ export default function Login() {
         <img className="lock" src={cadeado} alt=""/>
         <div className="frame-2">
           <div className="campo-de-texto-1">
-            <div className="digite-sua-senha">
-              Digite sua senha<br />   
-            </div>
+            <input 
+              type="text" 
+              placeholder="Digite sua senha"
+              className="text" 
+            />
             <div className="line-11">
             </div>
           </div>
@@ -39,20 +44,16 @@ export default function Login() {
       <div className="esqueceu-asenha">
         Esqueceu a senha?
       </div>
-      <div className="button-acessar">
-        <span className="acessar">
-          Acessar
-        </span>
-      </div>
-      <div className="ou">
-        ou
-      </div>
-      <div className="button-google">
+      <button className="button-acessar" onClick={() => window.location.href = '#'}>
+        <span className="acessar">Acessar </span>
+      </button>
+      <div className="ou">ou</div>
+      <button className="button-google" onClick={() => window.location.href = '#'}>
         <img className="flat-color-iconsgoogle" src={google} alt=""/>
-        <div className="entrar-com-google">Entrar com Google
-        </div>
-      </div>
-      <p className="ainda-no-possui-uma-conta-cadastre-se">Ainda não possui uma conta? Cadastre-se<span className="ainda-no-possui-uma-conta-cadastre-se-sub-0"></span><span></span></p>
+        <p className="entrar-com-google">Entrar com Google</p>
+      </button>
+      <p>Ainda não possui uma conta? <Link to="/cadastro" className="cadastre-se-link">Cadastre-se</Link>
+        <span className="cadastro-sub-0"></span></p>
     </div>
   )
 }
