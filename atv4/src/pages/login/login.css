@@ -1,4 +1,15 @@
 /* telaLogin */
+.login {
+  border-radius: 13px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha itens horizontalmente */
+  justify-content: center; /* Alinha itens verticalmente */
+  padding: 16px;
+  box-sizing: border-box;
+}
+
 .login .eye {
     margin-bottom: 1px;
     width: 24px;
@@ -12,13 +23,18 @@
     box-sizing: border-box;
   }
   .login .acessar {
+    justify-content: center;
     overflow-wrap: break-word;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 14px;
     color: #FFFFFF;
+    text-align: center;
+    line-height: 24px;
   }
+  
   .login .button-acessar {
+    justify-content: center;
     border-radius: 34px;
     background: #D9E5D2;
     position: relative;
@@ -27,6 +43,7 @@
     padding: 7px 0.5px 7px 0;
     width: 100%;
     box-sizing: border-box;
+    border: none;
   }
   .login .user {
     margin: 0 3.1px 1px 0;
@@ -73,6 +90,7 @@
     padding: 5.5px 0;
     width: 100%;
     box-sizing: border-box;
+    border: none;
   }
   .login .entrar-com-google {
     margin: 1.5px 0;
@@ -82,10 +100,12 @@
     font-weight: 600;
     font-size: 14px;
     color: #000000;
+    margin-right: 75px;
   }
   .login .flat-color-iconsgoogle {
     width: 24px;
     height: 24px;
+    margin-left: 85px;
   }
   .login {
     border-radius: 13px;
@@ -95,18 +115,21 @@
     align-items: center;
     padding: 16px 16px 257px 16px;
     box-sizing: border-box;
+    justify-content: center;
   }
-  .ainda-no-possui-uma-conta-cadastre-se {
+  .cadastro {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 12px;
     text-decoration-line: underline;
     line-height: 1.333;
+    justify-content: space-between;
+    flex-direction: row;
+
   }
-  .login .ainda-no-possui-uma-conta-cadastre-se {
+  .login .cadastro {
     position: relative;
     margin-right: 1.6px;
-    overflow-wrap: break-word;
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 12px;
@@ -123,7 +146,7 @@
     font-size: 32px;
     color: #000000;
   }
-  .login .digite-seu-user-ou-email {
+  .login .text {
     margin-bottom: 3px;
     display: inline-block;
     align-self: flex-start;
@@ -132,6 +155,8 @@
     font-weight: 400;
     font-size: 14px;
     color: #5F5F5F;
+    border: none;
+    width: 95%;
   }
   .login .text-input-senha {
     position: relative;
@@ -158,16 +183,6 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-  }
-  .login .digite-sua-senha {
-    margin-bottom: 3px;
-    display: inline-block;
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 14px;
-    color: #5F5F5F;
   }
   .login .line-11 {
     background: #949393;
