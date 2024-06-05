@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './login.css';
 
@@ -9,6 +10,15 @@ import google from '../../images/google.svg';
 import user from '../../images/user.svg';
 
 export default function Login() {
+  const [email, setEmail] = useState('');
+  const [senha, setSenha] = useState('');
+
+  const botao = async() => {
+    setEmail('')
+    setSenha('')
+    window.location.href = '#'
+  }
+
   return (
     <div className="login">
       <div className="logo"></div>
@@ -21,6 +31,8 @@ export default function Login() {
               type="text" 
               placeholder="Digite seu user ou email" 
               className="text" 
+              value={email}
+              on onChange={event => setEmail(event.target.value)}
             />
             <div className="line-1">
             </div>
@@ -34,6 +46,8 @@ export default function Login() {
                 type="text" 
                 placeholder="Digite sua senha"
                 className="text" 
+                value={senha}
+                on onChange={event => setSenha(event.target.value)}
               />
               <div className="line-11">
               </div>
@@ -43,11 +57,11 @@ export default function Login() {
         </div>
       </div>
       <p className="text-senha-esquecida">Esqueceu a senha?</p>
-      <button className="button-acessar" onClick={() => window.location.href = '#'}>
+      <button className="button-acessar" onClick={botao}>
         <span className="acessar">Acessar </span>
       </button>
       <div className="ou">ou</div>
-      <button className="button-google" onClick={() => window.location.href = '#'}>
+      <button className="button-google" onClick={botao}>
         <img className="flat-color-iconsgoogle" src={google} alt=""/>
         <p className="entrar-com-google">Entrar com Google</p>
       </button>
