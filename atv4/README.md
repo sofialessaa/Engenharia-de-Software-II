@@ -18,11 +18,16 @@ Você pode visualizar o protótipo do aplicativo EcoTech no Figma [aqui](https:/
 
 Aqui estão as telas de login e cadastro para referência:
 
-### Tela de Login
-<img src="imagens/IMG_7215.jpeg" alt="Tela de Login" width="300"/>
-
-### Tela de Cadastro
-<img src="imagens/IMG_7216.jpeg" alt="Tela de Cadastro" width="300"/>
+<div style="display: flex; flex-direction: row; justify-content: space-between; gap:30px;">
+    <div style="flex: 1; margin-right: 10px;">
+        <h3>Tela de Login</h3>
+        <img src="imagens/IMG_7215.jpeg" alt="Tela de Login" width="300"/>
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+        <h3>Tela de Cadastro</h3>
+        <img src="imagens/IMG_7216.jpeg" alt="Tela de Cadastro" width="300"/>
+    </div>
+</div>
 
 ## Rodando o Projeto
 
