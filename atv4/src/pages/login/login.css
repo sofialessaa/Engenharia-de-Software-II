@@ -4,12 +4,15 @@
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinha itens horizontalmente */
-  justify-content: center; /* Alinha itens verticalmente */
+  align-items: center; 
+  justify-content: center; 
   padding: 16px;
   box-sizing: border-box;
 }
-
+.login .campo-de-login{
+  justify-content: center;
+  align-items: center;
+}
 .login .eye {
     margin-bottom: 1px;
     width: 24px;
@@ -58,7 +61,7 @@
     flex-basis: 333.9px;
     box-sizing: border-box;
   }
-  .login .esqueceu-asenha {
+  .login .text-senha-esquecida {
     position: relative;
     margin: 0 0.5px 20px 0.5px;
     display: inline-block;
@@ -135,7 +138,7 @@
     font-size: 12px;
     color: #000000;
   }
-  .login .entrar {
+  h1 {
     position: relative;
     margin-bottom: 12px;
     display: inline-block;
@@ -158,7 +161,12 @@
     border: none;
     width: 95%;
   }
-  .login .text-input-senha {
+  .login .cadastrar {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .login .campo-senha {
     position: relative;
     margin: 0 5px 7px 0;
     display: flex;
@@ -190,7 +198,7 @@
     width: 298px;
     height: 1px;
   }
-  .login .text-input-user {
+  .login .campo-user {
     position: relative;
     margin-bottom: 23px;
     display: flex;
@@ -199,7 +207,7 @@
     width: 100%;
     box-sizing: border-box;
   }
-  .login .logo-eco-tech {
+  .login .logo {
     background: url('../../images/logo.jpg') 50% / cover no-repeat;
     position: relative;
     margin: 0 1px 15px 0;
@@ -210,7 +218,10 @@
     filter: blur(15px);
     position: absolute;
     left: -59px;
-    top: 744px;
+    top: 650px;
     width: 510px;
     height: 296px;
+    overflow: hidden;
+    justify-self: center;
+    align-self: center;
   }

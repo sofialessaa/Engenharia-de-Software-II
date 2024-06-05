@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './cadastro.css';
 
 import cadeado from '../../images/cadeado.svg';
-import eclipse from '../../images/eclipse.svg';
+import eclipse from '../../images/eclipse.png';
 import eye from '../../images/eye.svg';
 import google from '../../images/google.svg';
 import user from '../../images/user.svg';
@@ -16,9 +16,7 @@ export default function Cadastro() {
       <img className="ellipse-1" src={eclipse} alt=""/>
       <div className="logo-eco-tech">
       </div>
-      <div className="novo-usurio">
-        Novo usuário
-      </div>
+      <h1>Novo usuário</h1>
       <div className="text-input-user">
         <img className="user" src={user} alt=""/>
         <div className="campo-de-texto-1">
@@ -73,7 +71,7 @@ export default function Cadastro() {
         <img className="icon-google" src={google} alt=""/>
         <p className="texto-google">Entrar com Google</p>
       </button>
-      <p>Já possui uma conta? <Link to="/cadastro" className="cadastre-se-link">Faça o Login</Link>
+      <p>Já possui uma conta? <Link to="/" className="cadastre-se-link">Faça o Login</Link>
         <span className="cadastro-sub-0"></span></p>
     </div>
   )

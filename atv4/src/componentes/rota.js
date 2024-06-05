@@ -1,4 +1,4 @@
-import Login from "../pages/login/telaLogin";
+import Login from "../pages/login/login";
 import Cadastro from "../pages/cadastro/cadastro";
 import { Route, Routes} from "react-router-dom";
 
