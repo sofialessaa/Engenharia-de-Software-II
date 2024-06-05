@@ -1,10 +1,14 @@
-import './cadastro.css'
-import cadeado from '../../images/cadeado.svg'
-import eclipse from '../../images/eclipse.svg'
-import eye from '../../images/eye.svg'
-import google from '../../images/google.svg'
-import user from '../../images/user.svg'
-import sign from '../../images/sign.svg'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './cadastro.css';
+
+import cadeado from '../../images/cadeado.svg';
+import eclipse from '../../images/eclipse.svg';
+import eye from '../../images/eye.svg';
+import google from '../../images/google.svg';
+import user from '../../images/user.svg';
+import sign from '../../images/sign.svg';
+
 
 export default function Cadastro() {
   return (
@@ -18,10 +22,11 @@ export default function Cadastro() {
       <div className="text-input-user">
         <img className="user" src={user} alt=""/>
         <div className="campo-de-texto-1">
-          <div className="digite-seu-user">
-            Digite seu user<br />
-            
-          </div>
+          <input 
+            type="text" 
+            placeholder="Digite seu user" 
+            className="input-user" 
+          />
           <div className="line-11">
           </div>
         </div>
@@ -29,10 +34,11 @@ export default function Cadastro() {
       <div className="text-input-email">
         <img className="at-sign" src={sign} alt=""/>
         <div className="campo-de-texto-2">
-          <div className="digite-seu-email">
-            Digite seu email<br />
-            
-          </div>
+          <input 
+            type="text" 
+            placeholder="Digite seu email" 
+            className="input-email" 
+          />
           <div className="line-12">
           </div>
         </div>
@@ -41,10 +47,11 @@ export default function Cadastro() {
         <img className="lock" src={cadeado} alt=""/>
         <div className="frame-2">
           <div className="campo-de-texto">
-            <div className="digite-sua-senha">
-              Digite sua senha<br />
-              
-            </div>
+            <input 
+              type="text" 
+              placeholder="Digite sua senha" 
+              className="input-senha" 
+            />
             <div className="line-1">
             </div>
           </div>
@@ -54,27 +61,20 @@ export default function Cadastro() {
       <div className="frame-1">
         <div className="checkbox">
         </div>
-        <p className="termo">
-          <span className="termo-sub-8"></span><span></span>
-        </p>
+        <p className="termo">Li e estou de acordo com o Termo de Uso e Política de Privacidade</p>
       </div>
-      <div className="button-acessar">
-        <span className="cadastrar">
-          Cadastrar
-        </span>
-      </div>
+      <button className="button-acessar" onClick={() => window.location.href = '#'}>
+        <span className="cadastrar">Cadastrar </span>
+      </button>
       <div className="ou">
         ou
       </div>
-      <div className="button-google">
-        <img className="flat-color-iconsgoogle" src={google} alt=""/>
-        <div className="entrar-com-google">
-          Entrar com Google
-        </div>
-      </div>
-      <p className="jpossui-uma-conta-faa-ologin">
-        <span className="jpossui-uma-conta-faa-ologin-sub-0"></span><span></span>
-      </p>
+      <button className="button-google">
+        <img className="icon-google" src={google} alt=""/>
+        <p className="texto-google">Entrar com Google</p>
+      </button>
+      <p>Já possui uma conta? <Link to="/cadastro" className="cadastre-se-link">Faça o Login</Link>
+        <span className="cadastro-sub-0"></span></p>
     </div>
   )
 }
