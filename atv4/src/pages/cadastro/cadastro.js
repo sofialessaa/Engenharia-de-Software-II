@@ -95,7 +95,7 @@ export default function Cadastro() {
         <img className="icon-google" src={google} alt=""/>
         <p className="texto-google">Entrar com Google</p>
       </button>
-      <p>Já possui uma conta? <Link to="/" className="cadastre-se-link">Faça o Login</Link></p>
+      <p className="logar">Já possui uma conta? <Link to="/" className="cadastre-se-link">Faça o login</Link></p>
     </div>
   )
 }
