@@ -37,5 +37,6 @@ Para rodar o projeto, siga estes passos:
 2. Navegue até o diretório do projeto digitando `cd atv4`.
 3. Instale as dependências digitando `npm install`.
 4. Inicie o projeto digitando `npm start`.
+5. Para visualizar o app no tamanho do celular, é aconselhado que vc inspecione o site e selecione iphone 14/13
 
 Certifique-se de ter o Node.js e o npm instalados em sua máquina antes de executar os comandos acima.
