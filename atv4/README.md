@@ -13,6 +13,16 @@ As histórias de usuário selecionadas foram:
 
 Você pode visualizar o protótipo do aplicativo EcoTech no Figma [aqui](https://www.figma.com/proto/tD1BA9bxFUhPLkpOqfeESF/EcoTech?type=design&node-id=1-4&t=x12Yi99iTEDgcr7X-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4&classId=643468c0-d115-4faa-9b9b-cf46cd74bb12&assignmentId=15d79062-816c-4e56-84b6-73535347120c&submissionId=75ac2725-0b30-d32c-e39c-f466a4ab59e3).
 
+## Telas do Aplicativo
+
+Aqui estão as telas de login e cadastro para referência:
+
+### Tela de Login
+<img src="imagens/IMG_7215.jpeg" alt="Tela de Login" width="300"/>
+
+### Tela de Cadastro
+<img src="imagens/IMG_7216.jpeg" alt="Tela de Cadastro" width="300"/>
+
 ## Rodando o Projeto
 
 Para rodar o projeto, siga estes passos:
